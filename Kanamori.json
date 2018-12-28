@@ -1,0 +1,909 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "3c0803be-09fb-11e9-a4a0-801934c598f6",
+    "deck_config_uuid": "3c0803bf-09fb-11e9-a4a0-801934c598f6",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "3c0803bf-09fb-11e9-a4a0-801934c598f6",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "mid": "1543688442858",
+    "name": "Kanamori",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3c0803c2-09fb-11e9-a4a0-801934c598f6",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Name",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "definition",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "ultrafilter definition",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "embedding_def",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "partition_properties",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Reflection properties",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "different definitions",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    2,
+                    "all",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    3,
+                    "all",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    4,
+                    "all",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    5,
+                    "all",
+                    [
+                        1
+                    ]
+                ],
+                [
+                    6,
+                    "all",
+                    [
+                        3
+                    ]
+                ],
+                [
+                    7,
+                    "all",
+                    [
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div style='font-family: Arial; font-size: 20px;'>{{definition}}</div>\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Define",
+                    "ord": 0,
+                    "qfmt": "Give the definition of <div style='font-family: Arial; font-size: 20px;'>{{Name}}</div>\n\n\n"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div style='font-family: Arial; font-size: 20px;'>{{ultrafilter definition}}</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Ultrafilter define",
+                    "ord": 1,
+                    "qfmt": "Give the ultrafilter definition of  <div style='font-family: Arial; font-size: 20px;'>{{Name}}</div>\n\n"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div style='font-family: Arial; font-size: 20px;'>{{embedding_def}}</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Embedding define",
+                    "ord": 2,
+                    "qfmt": "Give the embedding definition of  <div style='font-family: Arial; font-size: 20px;'>{{Name}}</div>\n"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div style='font-family: Arial; font-size: 20px;'>{{partition_properties}}</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Give partition properties",
+                    "ord": 3,
+                    "qfmt": "Give partition properties of  <div style='font-family: Arial; font-size: 20px;'>{{Name}}</div>\n"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div style='font-family: Arial; font-size: 20px;'>{{Reflection properties}}</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Give reflection properties",
+                    "ord": 4,
+                    "qfmt": "Give the reflection properties of  <div style='font-family: Arial; font-size: 20px;'>{{Name}}</div> cardinals\n"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div style='font-family: Arial; font-size: 20px;'>{{Name}}</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "name definition",
+                    "ord": 5,
+                    "qfmt": "Name the cardinal defined by <div style='font-family: Arial; font-size: 20px;'>{{definition}}</div>\n\n\n"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div style='font-family: Arial; font-size: 20px;'>{{Name}}</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "name embedding definition",
+                    "ord": 6,
+                    "qfmt": "Name the cardinal defined by <div style='font-family: Arial; font-size: 20px;'>{{embedding_def}}</div>\n"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div style='font-family: Arial; font-size: 20px;'>{{Name}}</div>\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "name ultrafilter definition",
+                    "ord": 7,
+                    "qfmt": "Name the cardinal defined by  \n\n<div style='font-family: Arial; font-size: 20px;'>{{ultrafilter definition}}</div>\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3c0803d7-09fb-11e9-a4a0-801934c598f6",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic-8857f",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div style='font-family: Arial; font-size: 20px;'>{{Back}}</div>\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "\n<div style='font-family: Arial; font-size: 20px;'>{{Front}}</div>\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3c0803e0-09fb-11e9-a4a0-801934c598f6",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic (and reversed card)-20002",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{Back}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3c0803f5-09fb-11e9-a4a0-801934c598f6",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3c0803f8-09fb-11e9-a4a0-801934c598f6",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic (and reversed card)",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{Back}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "measurable",
+                "there is a \\(\\kappa \\)&nbsp;complete ultrafilter on \\(\\kappa \\)",
+                "there is a normal ultrafilter on \\(\\kappa \\)",
+                "there is a&nbsp;\\(j:V\\prec M\\) with&nbsp;\\(crit(j)=\\kappa\\)",
+                "if \\(U\\) is a normal ultrafilter on \\(\\kappa\\) then for every \\(f:[\\kappa ]^{&lt;\\omega}\\rightarrow \\gamma\\) where \\(\\gamma&lt;\\kappa\\) there is a homogeneous set for \\(f\\) in \\(U\\)",
+                "measurable cardinals are \\(\\Pi_1^2\\)-indescribable. Moreover, for every \\(\\Pi_1^2\\) formula \\(\\varphi\\), the set of \\(\\alpha\\) which reflect \\(\\varphi\\) is in every normal filter.<div>Also, \\(\\{\\alpha &lt;\\kappa |\\alpha \\)is totally indescribable\\(\\}\\in U\\) for every normal filter on \\(\\kappa\\).</div>"
+            ],
+            "flags": 0,
+            "guid": "Q5vGl8O5#1",
+            "note_model_uuid": "3c0803c2-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "cardinals"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "inaccesible",
+                "\\(\\kappa \\) is regular and strong limit",
+                "",
+                "",
+                "if \\(\\kappa \\rightarrow (\\kappa )^2_2 \\) and \\(\\kappa &gt; \\omega \\)then \\(\\kappa \\) is inaccesible, and if \\(\\kappa \\) is inaccesible or \\(\\kappa =\\omega\\) then \\(\\kappa\\rightarrow (\\kappa )^n_\\lambda \\)",
+                "\\(\\kappa\\) is inaccessible iff it is \\(\\Sigma^1_1\\)-indescribable"
+            ],
+            "flags": 0,
+            "guid": "djgWesRm1T",
+            "note_model_uuid": "3c0803c2-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "cardinals"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mahlo",
+                "\\(\\{\\alpha &lt;\\kappa | \\alph\\) is inaccessible \\(\\}\\) is stationary in \\(\\kappa\\)",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "L.]|-~qgl3",
+            "note_model_uuid": "3c0803c2-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "cardinals"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "weakly compact",
+                "any collection of \\(L_{\\kappa\\kappa}\\) sentences using at most \\(\\kappa\\) non-logical symbols if \\(\\kappa\\)-satisfiable, is satisfiable",
+                "",
+                "\\(\\kappa\\) has the extension property: for every \\(R\\subseteq V_\\kappa\\) there is a transitive \\(X\\neq V_\\kappa\\) and \\(S\\subseteq X\\) such that \\(\\langle V_\\kappa,\\in,R\\rangle\\prec\\langle X,\\in,S\\rangle\\)",
+                "\\(\\kappa\\) is weakly compact iff \\(\\kappa\\rightarrow (\\kappa)^n_\\lambda \\) for every \\(n&lt;\\omega ,\\lambda&lt;\\kappa\\) and iff \\(\\kappa\\rightarrow (\\kappa)^2_2\\)",
+                "\\(\\kappa\\) is weakly compact iff it is \\(\\Pi^1_1\\)-indescribable. Also, if \\(\\kappa\\) is weakly compact then \\(\\kappa\\) is weakly compact in \\(L\\)"
+            ],
+            "flags": 0,
+            "guid": "hzqE8>6+[]",
+            "note_model_uuid": "3c0803c2-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "cardinals"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "strongly compact",
+                "any \\(\\kappa\\)- satisfiable collection of \\(L_{\\kappa\\kappa}\\) sentences is satisfiable",
+                "Every \\(\\kappa\\)-complete filter can be extended to a \\(\\kappa\\)-complete ultrafilter",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "MQ{PWjsP$*",
+            "note_model_uuid": "3c0803c2-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "cardinals"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "\\(\\gamma\\)-supercompact (\\(\\kappa\\) is supercompact if it is \\(\\gamma\\)-supercompact for every \\(\\gamma\\))",
+                "there is a \\(j:V\\prec M\\) with \\(crit(j)=\\kappa\\), \\(\\gamma &lt;j(\\kappa )\\) and such that \\(^\\gamma M\\subseteq M\\)",
+                "For \\(\\gamma \\geq\\kappa\\), \\(\\kappa\\) is \\(\\gamma\\)-supercompact iff there is a normal ultrafilter over \\(\\mathcal{P}_\\kappa \\gamma \\)",
+                "there is a \\(j:V\\prec M\\) with \\(crit(j)=\\kappa\\), \\(\\gamma &lt;j(\\kappa )\\) and such that \\(^\\gamma M\\subseteq M\\)",
+                "",
+                "If \\(\\kappa\\) is supercompact, then \\(V_\\kappa\\prec_2 V\\)<div>\\(\\kappa\\) is supercompact iff for every \\(\\eta &gt;\\kappa\\) there is an \\(\\alpha &lt;\\kappa\\) and \\(e:V_\\alpha\\prec V_\\eta\\) with \\(e(crit(e))=\\kappa\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "Er):@tBOD$",
+            "note_model_uuid": "3c0803c2-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "cardinals"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "\\(\\gamma\\)-compact (\\(\\kappa\\) is strongly compact iff it is \\(\\gamma\\)-compact for every \\(\\gamma\\geq\\kappa\\))",
+                "There is a fine ultrafilter over \\(\\mathcal{P}_\\kappa \\gamma\\)",
+                "Every \\(\\kappa\\)-complete filter generated by at most \\(|\\gamma |\\) sets can be extended to a \\(\\kappa\\)-complete ultrafilter",
+                "There is a \\(j:V\\prec M\\) with \\(crit(j)=\\kappa\\) such that for any \\(X\\subseteq M\\) with \\(|X|\\leq \\gamma\\) there is a \\(Y\\in M\\) such that \\(Y\\supseteq X\\) and \\(M\\models |Y|&lt;j(\\kappa )\\)",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "noXW&i*u=7",
+            "note_model_uuid": "3c0803c2-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "cardinals"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Define when \\(\\kappa\\) is \\(Q\\)-indescribable for \\(Q\\) a set of sentences",
+                "if for any \\(R\\subseteq V_\\kappa\\) and \\(Q\\) sentence \\(\\varphi\\) such that \\(\\langle V_\\kappa ,\\in ,R\\rangle \\models\\varphi\\) there is an \\(\\alpha &lt;\\kappa\\) such that \\(\\langle V_\\alpha ,\\in ,R\\cap V_\\alpha\\rangle\\models\\varphi\\)"
+            ],
+            "flags": 0,
+            "guid": "gQu~<5>)]f",
+            "note_model_uuid": "3c0803d7-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "cardinals"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quote Kunen's inconsistency theorem",
+                "If \\(j:V\\prec M\\) then \\(M\\neq V\\)"
+            ],
+            "flags": 0,
+            "guid": "p+=p&/?wUJ",
+            "note_model_uuid": "3c0803d7-09fb-11e9-a4a0-801934c598f6",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Define when \\(\\beta\\rightarrow(\\alpha )_\\delta^\\gamma \\)",
+                "When for any \\(f:[\\beta ]^\\gamma\\rightarrow\\delta\\) there is an \\(H\\in [\\beta ]^\\alpha\\) homogeneous for \\(f\\): \\(|f^{\\prime\\prime}[H]^\\gamma |\\leq 1\\)"
+            ],
+            "flags": 0,
+            "guid": "Lz3CCKaxEq",
+            "note_model_uuid": "3c0803d7-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "partitions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "\\(\\kappa\\) is Ramsey",
+                "iff \\(\\kappa\\rightarrow(\\kappa)^{&lt;\\omega}_2"
+            ],
+            "flags": 0,
+            "guid": "PoNDlUBvmI",
+            "note_model_uuid": "3c0803e0-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "partitions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Define Chang's conjecture \\(\\langle\\kappa,\\lambda\\rangle\\twoheadrightarrow\\langle\\mu,\\nu\\rangle\\)",
+                "Whenever \\(\\mathcal{A}\\) is a structure of type \\(\\langle\\kappa,\\lambda\\rangle\\) there is a \\(\\mathcal{B}\\prec\\mathcal{A}\\) of type \\(\\langle\\mu,\\nu\\rangle\\)"
+            ],
+            "flags": 0,
+            "guid": "cX*ekC<|VM",
+            "note_model_uuid": "3c0803d7-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "partitions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Define when \\(\\beta\\rightarrow[\\alpha]^\\gamma_\\delta\\)",
+                "If for any \\(f:[\\beta]^\\gamma\\rightarrow\\delta\\) there is an \\(H\\in[\\beta]^\\alpha\\) such that \\(f^{\\prime\\prime}[H]^\\gamma\\neq\\delta\\)"
+            ],
+            "flags": 0,
+            "guid": "HFm7U$~mNI",
+            "note_model_uuid": "3c0803d7-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "partitions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the connection between Chang's conjecture and partition relations?",
+                "\\(\\langle\\kappa,\\lambda\\rangle\\twoheadrightarrow\\langle\\mu,&lt;\\nu\\rangle\\) iff \\(\\kappa\\rightarrow[\\mu]^{&lt;\\omega}_{\\lambda,&lt;\\nu}\\)"
+            ],
+            "flags": 0,
+            "guid": "B0A|XQk?2A",
+            "note_model_uuid": "3c0803d7-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "partitions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Define when \\(\\beta\\rightarrow[\\alpha]^\\gamma_{\\delta,&lt;\\eta}\\)",
+                "The same definition, with the requirement that \\(|f^{\\prime\\prime}[H]^\\gamma|&lt;\\eta"
+            ],
+            "flags": 0,
+            "guid": "dBv-+cYk~h",
+            "note_model_uuid": "3c0803d7-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "partitions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When is \\(kappa\\) \\(\\nu\\)-Rowbottom?",
+                "if \\(\\kappa\\rightarrow[\\kappa]^{&lt;\\omega}_{\\lambda, &lt;\\nu}\\) for every \\(\\lambda&lt;\\kappa\\)"
+            ],
+            "flags": 0,
+            "guid": "HawF.$yml&",
+            "note_model_uuid": "3c0803d7-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "cardinals",
+                "partitions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When is \\(\\kappa\\) a Rowbottom cardinal?",
+                "If it is \\(\\omega_1\\)-Rowbottom. Namely, if if \\(\\kappa\\rightarrow[\\kappa]^{&lt;\\omega}_{\\lambda, &lt;\\omega_1}\\) for every \\(\\lambda&lt;\\kappa\\)"
+            ],
+            "flags": 0,
+            "guid": "DuW+uy(CWd",
+            "note_model_uuid": "3c0803d7-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "cardinals",
+                "partitions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When is \\(\\kappa\\) a Jonsson cardinal?",
+                "If every algebra of cardinality \\(\\kappa\\) has a proper subalgebra of the same cardinality"
+            ],
+            "flags": 0,
+            "guid": "KN9)4INUt:",
+            "note_model_uuid": "3c0803f5-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "cardinals",
+                "partitions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "\\(\\kappa\\) being a Jonsson cardinal is equivalent to the partition relation:",
+                "\\(\\kappa\\rightarrow[\\kappa]^{&lt;\\omega}_\\kappa\\) is equivalent to \\(\\kappa\\) being"
+            ],
+            "flags": 0,
+            "guid": "n|u]rW=*mi",
+            "note_model_uuid": "3c0803f8-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "partitions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What can be said about the least Jonsson cardinal?",
+                "It is either weakly inaccessible or singular of cofinality \\(\\omega\\)<div>Also, it is \\(\\nu\\)-Rowbottom for some \\(\\nu\\) (and \\(\\nu\\) can be taken to be the least \\(\\delta\\) such that \\(\\kappa\\rightarrow[\\kappa]^{&lt;\\omega}_\\delta\\))</div>"
+            ],
+            "flags": 0,
+            "guid": "r.!Vpo}x9L",
+            "note_model_uuid": "3c0803f5-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "partitions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What conditions are enough for \\(\\kappa^+\\) not to be a Jonsson cardinal?",
+                "If \\(\\kappa\\) is not Jonsson<div>If \\(2^\\kappa=\\kappa^+\\)</div><div>If \\kappa is regular</div><div>or if \\(\\kappa\\) is singular and not the limit of regular Jonsson cardinals</div>"
+            ],
+            "flags": 0,
+            "guid": "L7zl!%SG;a",
+            "note_model_uuid": "3c0803f5-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "partitions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Define when \\(\\langle X,&lt;\\rangle\\) is a set of indiscernibles for \\(\\mathcal{M}\\)",
+                "if for every formula \\(\\varphi(v_1,\\cdots,v_n)\\) in the language of \\mathcal{M} and for every \\(x_1&lt;\\cdots&lt;x_n\\) and \\(y_1&lt;\\cdots&lt;y_n\\) all in \\(X\\), \\(\\mathcal{M}\\models\\varphi[x_1,\\cdots,x_n]\\iff \\mathcal{M}\\models\\varphi[y_1,\\cdots,y_n]\\)"
+            ],
+            "flags": 0,
+            "guid": "xB5!~ku>_G",
+            "note_model_uuid": "3c0803f5-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "sharps"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is an EM blueprint?",
+                "It is the theory in \\(\\mathcal{L}^*_\\in\\) of some structure \\(\\langle L_\\delta,\\in,x_k\\rangle_{k\\in\\omega}\\) where \\(\\delta&gt;\\omega\\) is limit ordinal and \\(\\{x_k|k\\in\\omega\\}\\) is a set of ordinal indiscernibles for \\(\\langle L_\\delta,\\in\\rangle\\) indexed in increasing order"
+            ],
+            "flags": 0,
+            "guid": "glLSi4[Ftv",
+            "note_model_uuid": "3c0803f5-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "sharps"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is property \\((I)\\) of \\(T=0^#\\)?",
+                "\\(\\mathcal{M}(T,\\alpha)\\) is well founded for every \\(\\alpha&lt;\\omega_1\\) (and it is equivalent for \\(\\mathcal{M}(T,\\alpha)\\) being well founded for every \\(\\alpha\\))"
+            ],
+            "flags": 0,
+            "guid": "s.@i?;BA$}",
+            "note_model_uuid": "3c0803f5-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "sharps"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is property \\((II)\\) of \\(T=0^#\\)?",
+                "For any \\(n\\)-ary Skolem term \\(t\\), \\(T\\) contains the sentence \\(t(c_0,\\cdots,c_{n-1})\\in On\\rightarrow t(c_0,\\cdots,c_{n-1})&lt;c_n\\)."
+            ],
+            "flags": 0,
+            "guid": "oYH]N9b*v(",
+            "note_model_uuid": "3c0803f5-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "sharps"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is property \\((III)\\) of \\(T=0^#\\)?",
+                "For any \\(n+m+1\\)-ary Skolem term \\(t\\), \\(T\\) contains the sentence \\(t(c_0,\\cdots,c_{m+n})&lt;c_m\\rightarrow t(c_0,\\cdots,c_{m+n})=t(c_0,\\cdots,c_{m-1},c_{m+n+1},\\cdots,c_{m+2n+1})\\)."
+            ],
+            "flags": 0,
+            "guid": "KZr&g{^s_C",
+            "note_model_uuid": "3c0803f5-09fb-11e9-a4a0-801934c598f6",
+            "tags": [
+                "sharps"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the name of the first singular cardinal refuting GCH?",
+                "Steve."
+            ],
+            "flags": 0,
+            "guid": "KBQn:*2i_<",
+            "note_model_uuid": "3c0803f5-09fb-11e9-a4a0-801934c598f6",
+            "tags": []
+        }
+    ]
+}
