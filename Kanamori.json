@@ -133,28 +133,32 @@
                     1,
                     "all",
                     [
-                        0
+                        0,
+                        2
                     ]
                 ],
                 [
                     2,
                     "all",
                     [
-                        0
+                        0,
+                        3
                     ]
                 ],
                 [
                     3,
                     "all",
                     [
-                        0
+                        0,
+                        4
                     ]
                 ],
                 [
                     4,
                     "all",
                     [
-                        0
+                        0,
+                        5
                     ]
                 ],
                 [
@@ -198,7 +202,7 @@
                     "did": null,
                     "name": "Ultrafilter define",
                     "ord": 1,
-                    "qfmt": "Give the ultrafilter definition of  <div style='font-family: Arial; font-size: 20px;'>{{Name}}</div>\n\n"
+                    "qfmt": "{{#ultrafilter definition}}\nGive the ultrafilter definition of  <div style='font-family: Arial; font-size: 20px;'>{{Name}}</div>\n{{/ultrafilter definition}}\n"
                 },
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div style='font-family: Arial; font-size: 20px;'>{{embedding_def}}</div>",
@@ -207,7 +211,7 @@
                     "did": null,
                     "name": "Embedding define",
                     "ord": 2,
-                    "qfmt": "Give the embedding definition of  <div style='font-family: Arial; font-size: 20px;'>{{Name}}</div>\n"
+                    "qfmt": "{{#embedding_def}}\nGive the embedding definition of  <div style='font-family: Arial; font-size: 20px;'>{{Name}}</div>\n{{/embedding_def}}"
                 },
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div style='font-family: Arial; font-size: 20px;'>{{partition_properties}}</div>",
@@ -216,7 +220,7 @@
                     "did": null,
                     "name": "Give partition properties",
                     "ord": 3,
-                    "qfmt": "Give partition properties of  <div style='font-family: Arial; font-size: 20px;'>{{Name}}</div>\n"
+                    "qfmt": "{{#partition_properties}}\nGive partition properties of  <div style='font-family: Arial; font-size: 20px;'>{{Name}}</div>\n{{/partition_properties}}"
                 },
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div style='font-family: Arial; font-size: 20px;'>{{Reflection properties}}</div>",
@@ -225,7 +229,7 @@
                     "did": null,
                     "name": "Give reflection properties",
                     "ord": 4,
-                    "qfmt": "Give the reflection properties of  <div style='font-family: Arial; font-size: 20px;'>{{Name}}</div> cardinals\n"
+                    "qfmt": "{{#Reflection properties}}\nGive the reflection properties of  <div style='font-family: Arial; font-size: 20px;'>{{Name}}</div> cardinals\n{{/Reflection properties}}\n"
                 },
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div style='font-family: Arial; font-size: 20px;'>{{Name}}</div>",
@@ -404,7 +408,7 @@
             ],
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "name": "Basic",
+            "name": "Basic-c8379",
             "req": [
                 [
                     0,
@@ -456,7 +460,7 @@
             ],
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "name": "Basic (and reversed card)",
+            "name": "Basic (and reversed card)-c8379",
             "req": [
                 [
                     0,
@@ -526,7 +530,7 @@
                 "\\(\\kappa \\) is regular and strong limit",
                 "",
                 "",
-                "if \\(\\kappa \\rightarrow (\\kappa )^2_2 \\) and \\(\\kappa &gt; \\omega \\)then \\(\\kappa \\) is inaccesible, and if \\(\\kappa \\) is inaccesible or \\(\\kappa =\\omega\\) then \\(\\kappa\\rightarrow (\\kappa )^n_\\lambda \\)",
+                "if \\(\\kappa \\rightarrow (\\kappa )^2_2 \\) and \\(\\kappa &gt; \\omega \\)then \\(\\kappa \\) is inaccesible",
                 "\\(\\kappa\\) is inaccessible iff it is \\(\\Sigma^1_1\\)-indescribable"
             ],
             "flags": 0,
@@ -541,7 +545,7 @@
             "data": "",
             "fields": [
                 "Mahlo",
-                "\\(\\{\\alpha &lt;\\kappa | \\alph\\) is inaccessible \\(\\}\\) is stationary in \\(\\kappa\\)",
+                "\\(\\{\\alpha &lt;\\kappa | \\alpha\\) is inaccessible \\(\\}\\) is stationary in \\(\\kappa\\)",
                 "",
                 "",
                 "",
